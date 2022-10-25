@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="TEST.CSS">
+    <script src="js.js" defer></script>
+    <title>Joueur contre Joueur</title>
+</head>
+<body class="ntm">
+   <div class="arrow-left" onclick="return_menu()"></div>
+   <h1 id="h1vs" class="style"></h1>   
+   </div> 
+   <div class="morpion_style">
+    <div id="morpionbloc">
+       <div id="c1" class="cases" onclick="couleur1()"></div>
+       <div id="c2" class="cases" onclick="couleur2()"></div>
+       <div id="c3" class="cases" onclick="couleur3()"></div>
+       <div id="c4" class="cases" onclick="couleur4()"></div>
+       <div id="c5" class="cases" onclick="couleur5()"></div>
+       <div id="c6" class="cases" onclick="couleur6()"></div>
+       <div id="c7" class="cases" onclick="couleur7()"></div>
+       <div id="c8" class="cases" onclick="couleur8()"></div>
+       <div id="c9" class="cases" onclick="couleur9()"></div>
+    </div>
+   </div>
+     <div class="historique">
+        <p>C'est a toi  <span id="joueur"></span></p>
+        <p id="nombreClics">Il reste 9 coups </p>
+        <p>Score de <span id="j1"></span> : <span id="score1"></span></p>
+        <p>Score de <span id="j2"></span> : <span id="score2"></span></p>
+        <p>Match nuls <span id="sertariendutous"></span>: <span id = "égalité"></span> </p>
+     </div>
+    <button id="bouton_jouer" class="invisible"></button>
+    <button id="btn_valider" class="invisible">Validez les paramètres</button>
+</body>
+</html>

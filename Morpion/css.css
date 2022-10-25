@@ -1,0 +1,389 @@
+.body_index{
+  background:linear-gradient(90deg, #ccc 25%, #eee 40%, #ddd 100%);
+}
+
+.boutton_pseudo{
+  text-align: center;
+  margin-bottom: 5rem;
+}
+.boutton_choix{
+  text-align: center;
+}
+.boutton_jco{
+display: inline-block;
+  background-color: #d70b00;
+  border-radius: 10px;
+  border: 4px double #cccccc;
+  color: #a9ff0a;
+  font-size: 18px;
+  padding: 20px;
+  width: 15%;
+  cursor: pointer;
+  margin: 5px;
+  text-decoration: none;
+  margin-top: 2%;
+}
+.boutton_jco:hover {
+  background-color: green;
+  color:black;
+  font-weight: bold;
+}
+#morpionbloc{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 5rem 5rem 5rem;
+  width: 80%;
+  margin: auto;
+  gap: 2rem;
+  margin: 3rem auto;
+}
+.morpion_style{
+  border: 5px solid;
+  width: 30%;
+  margin: auto;
+  margin-bottom: 10px;
+  background-color: cyan;
+}
+.ntm{
+  margin:auto;
+  background: rgb(48,44,44);
+  background: linear-gradient(90deg, rgba(48,44,44,1) 16%, rgba(253,29,29,1) 37%, rgba(227,79,13,1) 58%, rgba(227,137,13,1) 83%, rgba(227,13,30,1) 100%);
+}
+.style{
+ border: 5px solid;
+ width: 30%;
+ margin: auto;
+ margin-bottom: 20px;
+ background-color: cyan;
+ text-align: center;
+}
+.cases{
+  border: 1px solid black;
+  border-radius: 10px;
+  height:100px; 
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+  background-color: white;
+}
+.cases:hover{
+  box-shadow: inset 0 0 1em rgb(4, 4, 4), 010px 5px 5px grey;
+}
+body button{
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+#testd{
+  text-align: center;
+}
+.invisible{
+  display: none;
+}
+.arrow-left {
+  width: 0px;
+  height: 0;
+  border-top: 30px solid transparent;
+  border-bottom: 30px solid transparent;
+  border-right: 40px solid #dddddd;
+  cursor: pointer;
+}
+.page{
+  display: flexbox;
+  justify-content: center;
+}
+.historique{
+  text-align: center;
+  border: 5px solid;
+  width: 30%;
+  background-color: cyan;
+  margin:auto;
+}
+.historique p {
+  font-weight: bold;
+  margin:auto
+}
+p:first-child {
+  color:green;
+  font-weight: bold;
+  font-size: large;
+}
+.entry_pseudo { 
+  border: 1rem solid rgb(232, 229, 229);
+  text-align: center;
+  background-color: rgb(58, 49, 49);
+  height: 3.5rem;
+  width: 75rem;
+  margin: auto;
+  margin-bottom:2rem;
+  color: #eee;
+}
+.entry_pseudo p {
+  color: #eee;
+}
+.choix_pseudo{
+  text-align: center;
+  border: 1rem solid rgb(232, 229, 229);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin:auto;
+  height: 30rem;
+  width: 75rem;
+  background-color: rgb(58, 49, 49);
+}
+.choix_pseudo label {
+  font-size: large;
+  font-weight: bold;
+  color: white;
+}
+.choix_pseudo p {
+  font-size: large;
+  font-weight: bold;
+  color: white;
+}
+select {
+  width: 5rem;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #070707;
+  color: white;
+  font-weight: bold;
+  font-size: larger;
+}
+.joueurform{
+  margin: 10px;
+  width: 250px;
+  border-radius: 5px;
+}        
+.btn-grad {
+  background-image: linear-gradient(to right, #ffd89b 0%, #19547b  51%, #ffd89b  100%);
+  margin-top: 50px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+  height: 50px;
+  width: 330px;
+  font-weight: bold;
+}
+
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+.btn-grad a {
+  text-decoration: none;
+  color:#eee;
+}
+.body_pseudo{
+  background-color: black;
+}
+@import url('https://fonts.googleapis.com/css?family=Poppins:900i');
+
+wrapper {
+  display: flex;
+  justify-content: center;
+}
+  
+.cta {
+  display: flex;
+  padding: 10px 45px;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+  color: white;
+  background: #3b366b;
+  transition: 1s;
+  box-shadow: 6px 6px 0 black;
+  transform: skewX(-15deg);
+  width: 15%;
+  margin: auto;
+  margin-top: 30px;
+}
+  
+.cta:focus {
+  outline: none; 
+}
+
+.cta:hover {
+  transition: 0.5s;
+  box-shadow: 10px 10px 0 #24bcc1;
+}
+
+.cta span:nth-child(2) {
+  transition: 0.5s;
+  margin-right: 0px;
+}
+
+.cta:hover  span:nth-child(2) {
+  transition: 0.5s;
+  margin-right: 45px;
+}
+span {
+  transform: skewX(15deg) 
+}
+span:nth-child(2) {
+  width: 20px;
+  margin-left: 30px;
+  position: relative;
+  top: 12%;
+}
+
+/**************SVG****************/
+
+path.one {
+  transition: 0.4s;
+  transform: translateX(-60%);
+}
+
+path.two {
+  transition: 0.5s;
+  transform: translateX(-30%);
+}
+
+.cta:hover path.three {
+  animation: color_anim 1s infinite 0.2s;
+}
+
+.cta:hover path.one {
+  transform: translateX(0%);
+  animation: color_anim 1s infinite 0.6s;
+}
+
+.cta:hover path.two {
+  transform: translateX(0%);
+  animation: color_anim 1s infinite 0.4s;
+}
+
+/* SVG animations */
+
+@keyframes color_anim {
+  0% {
+    fill: rgb(181, 250, 8);
+  }
+  50% {
+    fill: #ff9e03;
+  }
+  100% {
+    fill: rgb(255, 1, 1);
+  }
+}
+
+/* boutton menu principal*/
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700");
+* {
+  box-sizing: border-box;
+}
+.btn_jouer{
+  width: auto;
+  margin: auto;
+}
+.btn a {
+    text-decoration: none;
+    color: #111111;
+}
+
+@-webkit-keyframes topAnimation {
+  from {
+    transform: translate(0rem, 0);
+  }
+  to {
+    transform: translate(0rem, 3.5rem);
+  }
+}
+
+@keyframes topAnimation {
+  from {
+    transform: translate(0rem, 0);
+  }
+  to {
+    transform: translate(0rem, 3.5rem);
+  }
+}
+@-webkit-keyframes bottomAnimation {
+  from {
+    transform: translate(-11.5rem, 0);
+  }
+  to {
+    transform: translate(0rem, 0);
+  }
+}
+@keyframes bottomAnimation {
+  from {
+    transform: translate(-11.5rem, 0);
+  }
+  to {
+    transform: translate(0rem, 0);
+  }
+}
+button.btn {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 700;
+  border: 0;
+  position: relative;
+  letter-spacing: 0.15em;
+  margin-top:200px;
+  padding: 1rem 2.5rem;
+  background: transparent;
+  outline: none;
+  font-size: 28px;
+  color: #111111;
+  transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.15s;
+}
+button.btn::after, button.btn::before {
+  border: 0;
+  content: "";
+  position: absolute;
+  height: 40%;
+  width: 10%;
+  transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  z-index: -2;
+  border-radius: 50%;
+}
+button.btn::before {
+  border: 0;
+  background-color: #c92918;
+  top: -0.75rem;
+  left: 0.5rem;
+  -webkit-animation: topAnimation 2s cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.25s infinite alternate;
+          animation: topAnimation 2s cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.25s infinite alternate;
+}
+button.btn::after {
+  background-color: #e74c3c;
+  top: 3rem;
+  left: 13rem;
+  -webkit-animation: bottomAnimation 2s cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.5s infinite alternate;
+          animation: bottomAnimation 2s cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.5s infinite alternate;
+}
+button.btn:hover {
+  color: white;
+}
+button.btn:hover::before, button.btn:hover::after {
+  top: 0;
+  height: 100%;
+  width: 100%;
+  border-radius: 0;
+  -webkit-animation: none;
+  animation: none;
+}
+button.btn:hover::after {
+  left: 0rem;
+}
+button.btn:hover::before {
+  top: 0.5rem;
+  left: 0.35rem;
+}
+/* fin boutton menu principal*/
+
+/* test */
